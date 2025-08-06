@@ -6,6 +6,32 @@ import { Badge } from '@/components/ui/badge';
 export const ExperienceSection: React.FC = () => {
   const experiences = [
     {
+      period: 'Jan 2025 - Present',
+      role: 'AI Prompt Engineer',
+      company: 'Outlier · Freelance',
+      location: 'Remote',
+      description: [
+        'Design and optimize AI-generated prompts to improve response quality and relevance.',
+        'Analyze and refine AI model outputs to ensure accuracy, coherence, and contextual alignment.',
+        'Collaborate with AI development teams to enhance model performance through strategic prompt engineering.'
+      ],
+      type: 'work',
+      icon: '🤖'
+    },
+    {
+      period: 'Sep 2025 - Nov 2025',
+      role: 'Angular Web Developer',
+      company: 'Infosys Springboard',
+      location: 'Delhi',
+      description: [
+        'Engaged in an intensive Angular Full Stack Development program, built dynamic web apps using Angular, TypeScript.',
+        'Bootstrap shipped responsive UIs with HTML/CSS/JS focused on smooth UX.',
+        'Applied Agile/Scrum in team sprints and leveled up full-stack skills from frontend to deployment.'
+      ],
+      type: 'work',
+      icon: '💻'
+    },
+    {
       period: 'Dec 2024 - Feb 2025',
       role: 'Frontend Developer',
       company: 'Conduent · Internship',
@@ -17,17 +43,6 @@ export const ExperienceSection: React.FC = () => {
       ],
       type: 'work',
       icon: '💼'
-    },
-    {
-      period: 'May 2024 - Aug 2024',
-      role: 'Data Visualization Intern',
-      company: 'Infosys Springboard',
-      location: 'Delhi',
-      description: [
-        'Worked on data analytics, focusing on preprocessing, classification models, and evaluation.'
-      ],
-      type: 'work',
-      icon: '📊'
     },
     {
       period: '2023 - Present',
