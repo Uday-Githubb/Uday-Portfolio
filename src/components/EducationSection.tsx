@@ -6,8 +6,8 @@ export const EducationSection: React.FC = () => {
   const education = {
     period: '2022 - 2026',
     degree: 'B.Tech in Mathematics & Computing',
-    institution: 'Delhi Technological University',
-    gpa: '6.1/10',
+    institution: 'Delhi Technological University, North-West Delhi',
+    gpa: '6.4/10 (6th Semester)',
     courses: [
       'Data Structures',
       'Database Management System',
@@ -63,7 +63,7 @@ export const EducationSection: React.FC = () => {
                     <p className="text-muted-foreground">
                       Pursuing a comprehensive program that combines advanced mathematics 
                       with cutting-edge computing technologies, providing a strong foundation 
-                      in both theoretical concepts and practical applications.
+                      in both theoretical concepts and practical applications. Expected graduation: October 2026.
                     </p>
                   </div>
                 </div>

@@ -7,37 +7,37 @@ import { Button } from '@/components/ui/button';
 export const ProjectsSection: React.FC = () => {
   const projects = [
     {
-      title: 'AI NextGen',
-      description: 'An AI-driven web application that automates interactions with online platforms based on user credentials and task-specific prompts.',
-      technologies: ['Python', 'Selenium', 'OpenAI API', 'AWS', 'Machine Learning'],
+      title: 'Task Flow',
+      description: 'Developed an AI-driven web application that interacts with various online platforms based on user-provided login credentials and task-specific prompts. Built using Python, Selenium, Puppeteer, and OpenAI API, the system automates repetitive workflows, enhances productivity, and ensures secure handling of credentials.',
+      technologies: ['Python', 'Selenium', 'Puppeteer', 'OpenAI API', 'AWS/GCP', 'Machine Learning'],
       gradient: 'from-purple-600 to-pink-600',
       icon: '🤖',
       bgColor: 'bg-gradient-to-br from-purple-50 to-pink-50',
       features: [
-        'Intelligent task automation',
-        'OpenAI API integration',
-        'Cloud deployment on AWS',
-        'Advanced ML algorithms'
+        'AI-driven task automation',
+        'Secure credential handling',
+        'Adaptive ML models',
+        'AWS/GCP deployment'
       ]
     },
     {
       title: 'Juoze E-Commerce',
-      description: 'A responsive e-commerce platform for fresh health products featuring payment integration, JWT authentication, and optimized performance.',
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'Razorpay/Stripe', 'AWS'],
+      description: 'Built a responsive e-commerce site with React, Node.js, Express, and MongoDB for fresh health products. Integrated Redux, Razorpay/Stripe, and optimized performance with JWT authentication and API enhancements. Ensured scalability, performance, and security through best practices.',
+      technologies: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Redux', 'Razorpay/Stripe', 'AWS/Vercel/Netlify'],
       gradient: 'from-blue-600 to-cyan-600',
       icon: '🛒',
       bgColor: 'bg-gradient-to-br from-blue-50 to-cyan-50',
       features: [
-        'Payment gateway integration',
-        'JWT authentication system',
-        'Responsive design',
-        'Performance optimization'
+        'Redux state management',
+        'RESTful API design',
+        'Database indexing',
+        'Multi-platform deployment'
       ]
     },
     {
       title: 'Keeper React App',
-      description: 'A React-based note-taking application with full CRUD functionality, built with React hooks and Material-UI for a seamless user experience.',
-      technologies: ['React.js', 'Material-UI', 'GitHub Pages', 'JavaScript'],
+      description: 'Developed a React-based note-taking app with CRUD functionality, React hooks, and Material-UI. Deployed via GitHub Pages with clean, responsive design and seamless user experience.',
+      technologies: ['React.js', 'Material-UI', 'GitHub Pages', 'JavaScript', 'React Hooks'],
       gradient: 'from-green-600 to-teal-600',
       icon: '📝',
       bgColor: 'bg-gradient-to-br from-green-50 to-teal-50',
@@ -46,20 +46,6 @@ export const ProjectsSection: React.FC = () => {
         'Material-UI components',
         'React Hooks implementation',
         'GitHub Pages deployment'
-      ]
-    },
-    {
-      title: 'Smart Analytics Dashboard',
-      description: 'Real-time data visualization platform with predictive analytics and interactive charts for business intelligence.',
-      technologies: ['React.js', 'D3.js', 'Node.js', 'PostgreSQL', 'Redis'],
-      gradient: 'from-orange-600 to-red-600',
-      icon: '📊',
-      bgColor: 'bg-gradient-to-br from-orange-50 to-red-50',
-      features: [
-        'Real-time data processing',
-        'Predictive analytics',
-        'Interactive visualizations',
-        'Performance monitoring'
       ]
     }
   ];
