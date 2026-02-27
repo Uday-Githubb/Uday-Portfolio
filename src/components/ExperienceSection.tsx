@@ -34,7 +34,7 @@ export const ExperienceSection: React.FC = () => {
     {
       period: 'Dec 2024 - Feb 2025',
       role: 'Frontend Developer',
-      company: 'Conduent · Internship',
+      company: 'Horeka · Internship',
       location: 'Noida, India · On-site',
       description: [
         'Developed responsive web applications using modern frontend technologies.',
